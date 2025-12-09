@@ -1,0 +1,81 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5b7013fdb400b7a7bcae3e12c99947ac",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "soyuka/pmu",
+            "version": "v0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soyuka/pmu.git",
+                "reference": "a55c94b6878535fee6f1365880b067918df88e21"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soyuka/pmu/zipball/a55c94b6878535fee6f1365880b067918df88e21",
+                "reference": "a55c94b6878535fee6f1365880b067918df88e21",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^2.0"
+            },
+            "require-dev": {
+                "composer/composer": "^2.7",
+                "friendsofphp/php-cs-fixer": "^3.50",
+                "phpstan/phpstan": "^1.10",
+                "phpunit/phpunit": "^11.0",
+                "symfony/thanks": "^1.4",
+                "symfony/var-dumper": "^7.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Pmu\\Composer\\Plugin",
+                "thanks": {
+                    "url": "https://github.com/soyuka/pmu",
+                    "name": "soyuka/pmu"
+                },
+                "plugin-optional": true
+            },
+            "autoload": {
+                "psr-4": {
+                    "Pmu\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "soyuka",
+                    "email": "soyuka@users.noreply.github.com"
+                }
+            ],
+            "description": "PHP Mono Repository Utility",
+            "support": {
+                "issues": "https://github.com/soyuka/pmu/issues",
+                "source": "https://github.com/soyuka/pmu/tree/v0.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/soyuka",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-05-22T12:59:22+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
